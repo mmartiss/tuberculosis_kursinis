@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for acc in $(ls | grep -oP 'GCA_\K[0-9]+(?=\.1_)' | sort | uniq); do
+  if ls *GCF_${acc}.1_* &>/dev/null; then
+    ls *GCA_${acc}.1_* 2>/dev/null | xargs -r rm -v & echo ${acc}
+  fi
+done

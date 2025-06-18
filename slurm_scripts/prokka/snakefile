@@ -1,0 +1,24 @@
+SAMPLES = range(1, 172)  # For 171 genomes
+INPUT_DIR = "~/pangenome_construction/learning/data/not_clean"    # Directory containing input genome files
+OUTPUT_DIR = "~/pangenome_construction/learning/annotations"  # Directory for output files
+
+rule all:
+    input:
+        expand("{output_dir}/genome{sample}/genome{sample}.fna", output_dir=OUTPUT_DIR, sample=SAMPLES)
+
+rule run_prokka:
+    input:
+        fasta = "{input_dir}/{sample}.fna"
+    output:
+        gff = "{output_dir}/genome{sample}/genome{sample}.gff"
+    params:
+        outdir = "{output_dir}/genome{sample}",
+        prefix = "genome{sample}"
+    threads: 8
+    shell:
+        """
+        prokka --cpus {threads} \
+               --outdir {params.outdir} \
+               --prefix {params.prefix} \
+               {input.fasta}
+        """

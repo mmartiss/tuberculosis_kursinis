@@ -1,0 +1,7 @@
+Running: amrfinder -p all_proteins.faa -o all_amr.tsv
+Software directory: /scratch/lustre/home/maab9325/miniforge3/bin/
+Software version: 4.0.19
+*** ERROR ***
+No valid AMRFinder database is found.
+This directory (or symbolic link to directory) is not found: /scratch/lustre/home/maab9325/miniforge3/share/amrfinderplus/data/latest
+To download the latest version to the default directory run: amrfinder -u

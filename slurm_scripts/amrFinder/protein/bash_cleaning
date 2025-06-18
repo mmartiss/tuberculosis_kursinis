@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for acc in $(find . -type f -name "*GCA_*.1_*" \
+    | grep -oP 'GCA_\K[0-9]+(?=\.1_)' \
+    | sort | uniq); do
+
+  if find . -type f -name "*GCF_${acc}.1_*" &>/dev/null; then
+
+    find . -type f -name "*GCA_${acc}.1_*" -print -delete && echo "${acc}"
+  fi
+done

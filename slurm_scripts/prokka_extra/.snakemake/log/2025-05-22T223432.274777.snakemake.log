@@ -1,0 +1,59 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: node-24
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 44
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+run_prokka        1
+total             2
+
+Select jobs to execute...
+Execute 1 jobs...
+[Thu May 22 22:34:34 2025]
+localrule run_prokka:
+    input: GCF_003253775.1/GCF_003253775.1.fna
+    output: output/GCF_003253775.1/GCF_003253775.1.gff
+    log: output/GCF_003253775.1/prokka.log
+    jobid: 1
+    reason: Missing output files: output/GCF_003253775.1/GCF_003253775.1.gff
+    threads: 8
+    resources: tmpdir=/tmp/slurm-maab9325-175623
+
+RuleException:
+CalledProcessError in file "/scratch/lustre/home/maab9325/pangenome_construction/learning/extra_genome/prokka/snakefile", line 19:
+Command 'set -euo pipefail;  
+        prokka --cpus 8                --outdir output/GCF_003253775.1                --prefix GCF_003253775.1                GCF_003253775.1/GCF_003253775.1.fna > output/GCF_003253775.1/prokka.log 2>&1' returned non-zero exit status 2.
+[Thu May 22 22:34:34 2025]
+Error in rule run_prokka:
+    message: None
+    jobid: 1
+    input: GCF_003253775.1/GCF_003253775.1.fna
+    output: output/GCF_003253775.1/GCF_003253775.1.gff
+    log: output/GCF_003253775.1/prokka.log (check log file(s) for error details)
+    shell:
+        
+        prokka --cpus 8                --outdir output/GCF_003253775.1                --prefix GCF_003253775.1                GCF_003253775.1/GCF_003253775.1.fna > output/GCF_003253775.1/prokka.log 2>&1
+        
+        (command exited with non-zero exit code)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Thu May 22 22:34:34 2025]
+Error in rule run_prokka:
+    message: None
+    jobid: 1
+    input: GCF_003253775.1/GCF_003253775.1.fna
+    output: output/GCF_003253775.1/GCF_003253775.1.gff
+    log: output/GCF_003253775.1/prokka.log (check log file(s) for error details)
+    shell:
+        
+        prokka --cpus 8                --outdir output/GCF_003253775.1                --prefix GCF_003253775.1                GCF_003253775.1/GCF_003253775.1.fna > output/GCF_003253775.1/prokka.log 2>&1
+        
+        (command exited with non-zero exit code)
+Complete log(s): /scratch/lustre/home/maab9325/pangenome_construction/learning/extra_genome/prokka/.snakemake/log/2025-05-22T223432.274777.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

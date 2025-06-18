@@ -1,0 +1,6 @@
+Assuming unrestricted shared filesystem usage.
+host: node-03
+Building DAG of jobs...
+WildcardError in rule run_prokka in file "/scratch/lustre/home/maab9325/pangenome_construction/learning/anotations/snakefile", line 9:
+Wildcards in input files cannot be determined from output files: (rule run_prokka, line 16, /scratch/lustre/home/maab9325/pangenome_construction/learning/anotations/snakefile)
+'input_dir'

@@ -1,0 +1,8 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: node-23
+Building DAG of jobs...
+MissingInputException in rule all in file "/scratch/lustre/home/maab9325/pangenome_construction/learning/extra_genome/prokka/snakefile", line 5:
+Missing input files for rule all:
+    affected files:
+        /pangenome_construction/learning/extra_genome/prokka/output/GCF_003253775.1/GCF_003253775.1.gff

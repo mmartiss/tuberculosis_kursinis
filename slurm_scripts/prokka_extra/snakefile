@@ -1,0 +1,25 @@
+GENOME_ID = "GCF_003253775.1"
+
+rule all:
+    input:
+        f"output/{GENOME_ID}/{GENOME_ID}.gff"
+
+rule run_prokka:
+    input:
+        fasta = f"{GENOME_ID}/{GENOME_ID}.fna"
+    output:
+        gff = f"output/{GENOME_ID}/{GENOME_ID}.gff"
+    params:
+        outdir = f"output/{GENOME_ID}",
+        prefix = GENOME_ID
+    threads: 8
+    log:
+        f"output/{GENOME_ID}/prokka.log"
+    shell:
+        """
+        prokka --cpus {threads} \
+            --outdir {params.outdir} \
+            --prefix {params.prefix} \
+            --force \
+            {input.fasta} > {log} 2>&1
+        """

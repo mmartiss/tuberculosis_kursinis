@@ -1,0 +1,43 @@
+Assuming unrestricted shared filesystem usage.
+host: node-24
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 44
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+run_prokka        1
+total             2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May 22 22:38:44 2025]
+localrule run_prokka:
+    input: GCF_003253775.1/GCF_003253775.1.fna
+    output: output/GCF_003253775.1/GCF_003253775.1.gff
+    log: output/GCF_003253775.1/prokka.log
+    jobid: 1
+    reason: Missing output files: output/GCF_003253775.1/GCF_003253775.1.gff; Code has changed since last execution
+    threads: 8
+    resources: tmpdir=/tmp/slurm-maab9325-175624
+
+[Thu May 22 22:46:44 2025]
+Finished jobid: 1 (Rule: run_prokka)
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May 22 22:46:44 2025]
+localrule all:
+    input: output/GCF_003253775.1/GCF_003253775.1.gff
+    jobid: 0
+    reason: Input files updated by another job: output/GCF_003253775.1/GCF_003253775.1.gff
+    resources: tmpdir=/tmp/slurm-maab9325-175624
+
+[Thu May 22 22:46:44 2025]
+Finished jobid: 0 (Rule: all)
+2 of 2 steps (100%) done
+Complete log(s): /scratch/lustre/home/maab9325/pangenome_construction/learning/extra_genome/prokka/.snakemake/log/2025-05-22T223844.182729.snakemake.log

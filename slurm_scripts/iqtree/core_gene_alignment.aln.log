@@ -1,0 +1,197 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    node-26 (AVX512, FMA3, 376 GB RAM)
+Command: iqtree -s core_gene_alignment.aln -m GTR+G
+Seed:    315555 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 14:32:12 2025
+Kernel:  AVX+FMA - 1 threads (14 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 14 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file core_gene_alignment.aln ... Fasta format detected
+Reading fasta file: done in 3.48458 secs using 87.67% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 730 sites contain only gaps or ambiguous characters.
+Alignment has 88 sequences with 3632961 columns, 15153 distinct patterns
+11931 parsimony-informative, 21617 singleton sites, 3599413 constant sites
+                                                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00746499 secs using 99.73% CPU
+   1  GCF_028583165.1_ASM2858316v1_genomic                             3.95%    passed     94.74%
+   2  GCF_037076275.1_ASM3707627v1_genomic                             3.22%    passed     98.93%
+   3  GCF_045348055.1_Mtb3.fasta_genomic                               3.61%    passed     96.30%
+   4  GCF_040820805.1_INP40579_genomic                                 3.60%    passed     93.14%
+   5  GCF_030285705.1_ASM3028570v1_genomic                             3.43%    passed     72.41%
+   6  GCF_037076305.1_ASM3707630v1_genomic                             3.25%    passed     98.31%
+   7  GCF_028583145.1_ASM2858314v1_genomic                             4.11%    passed     96.66%
+   8  GCF_042982005.1_MBWGS366_genomic                                 3.67%    passed     90.88%
+   9  GCF_037076295.1_ASM3707629v1_genomic                             3.27%    passed     97.63%
+  10  GCF_028583205.1_ASM2858320v1_genomic                             3.91%    passed     98.45%
+  11  GCF_028583305.1_ASM2858330v1_genomic                             4.00%    passed     93.26%
+  12  GCF_039555365.1_Mtb9.fasta_genomic                               3.71%    passed     98.24%
+  13  GCF_028583285.1_ASM2858328v1_genomic                             4.04%    passed     98.07%
+  14  GCA_041272255.1_UCD_Mbov_1.1_genomic                             4.52%    passed     97.59%
+  15  GCF_040209205.1_ASM4020920v1_genomic                             3.28%    passed     97.39%
+  16  GCF_022870425.1_ASM2287042v1_genomic                             3.53%    passed     80.53%
+  17  GCF_013010385.1_ASM1301038v1_genomic                             3.29%    passed     98.34%
+  18  GCF_022870205.1_ASM2287020v1_genomic                             3.86%    passed     76.74%
+  19  GCF_022870185.1_ASM2287018v1_genomic                             3.94%    passed     27.68%
+  20  GCF_015482805.1_ASM1548280v1_genomic                             3.68%    passed     88.24%
+  21  GCF_022870265.1_ASM2287026v1_genomic                             4.21%    passed     91.42%
+  22  GCF_044324775.1_ASM4432477v1_genomic                             3.26%    passed     84.66%
+  23  GCF_040820175.1_INP15966_genomic                                 4.08%    passed     17.25%
+  24  GCF_022870345.1_ASM2287034v1_genomic                             3.83%    passed     86.84%
+  25  GCF_022870405.1_ASM2287040v1_genomic                             3.59%    passed     97.66%
+  26  GCF_039555355.1_Mtb6.fasta_genomic                               3.39%    passed     84.30%
+  27  GCF_037076325.1_ASM3707632v1_genomic                             3.38%    passed     68.84%
+  28  GCF_040820195.1_INP25474_genomic                                 3.43%    passed     46.90%
+  29  GCF_030285765.1_ASM3028576v1_genomic                             3.45%    passed     74.31%
+  30  GCF_022870285.1_ASM2287028v1_genomic                             3.63%    passed     81.47%
+  31  GCF_028583125.1_ASM2858312v1_genomic                             4.05%    passed     89.23%
+  32  GCF_030285685.1_ASM3028568v1_genomic                             3.52%    passed     82.33%
+  33  GCF_040821995.1_INP40868_genomic                                 3.23%    passed     81.92%
+  34  GCF_022870365.1_ASM2287036v1_genomic                             3.75%    passed     73.82%
+  35  GCF_037101195.1_ASM3710119v1_genomic                             3.36%    passed     66.03%
+  36  GCF_026727575.1_ASM2672757v1_genomic                             3.72%    passed     93.73%
+  37  GCF_040820775.1_INP37032_genomic                                 3.31%    passed     71.65%
+  38  GCF_026727615.1_ASM2672761v1_genomic                             3.77%    passed     99.67%
+  39  GCF_026167585.1_ASM2616758v1_genomic                             3.19%    passed     80.01%
+  40  GCF_037076265.1_ASM3707626v1_genomic                             3.27%    passed     98.34%
+  41  GCF_037076285.1_ASM3707628v1_genomic                             3.25%    passed     89.85%
+  42  GCF_028583245.1_ASM2858324v1_genomic                             3.93%    passed     98.58%
+  43  GCF_030053035.1_ASM3005303v1_genomic                             3.28%    passed     96.49%
+  44  GCF_030285725.1_ASM3028572v1_genomic                             3.42%    passed     77.56%
+  45  GCF_045348255.1_Mtb10.fasta_genomic                              3.47%    passed     94.15%
+  46  GCF_039555375.1_Mtb7.fasta_genomic                               3.47%    passed     98.60%
+  47  GCF_028752235.1_ASM2875223v1_genomic                             3.73%    passed     92.41%
+  48  GCF_037942805.1_Mtb2.fasta_genomic                               3.38%    passed     98.17%
+  49  GCF_028768425.1_ASM2876842v1_genomic                             3.84%    passed     96.08%
+  50  GCF_040820205.1_INP29366_genomic                                 3.65%    passed      7.64%
+  51  GCF_037076335.1_ASM3707633v1_genomic                             3.16%    passed     82.55%
+  52  GCF_022870165.1_ASM2287016v1_genomic                             3.95%    passed     79.71%
+  53  GCF_030285745.1_ASM3028574v1_genomic                             3.48%    passed     71.55%
+  54  GCF_037076315.1_ASM3707631v1_genomic                             3.25%    passed     98.94%
+  55  GCF_016917775.1_ASM1691777v1_genomic                             3.20%    passed     80.50%
+  56  GCF_045345655.1_AMtb_1_202402_genomic                            3.43%    passed     76.10%
+  57  GCF_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic    4.38%    passed     32.37%
+  58  GCF_045348065.1_Mtb4.fasta_genomic                               3.82%    passed     89.26%
+  59  GCF_045348245.1_Mtb5.fasta_genomic                               3.25%    passed     83.25%
+  60  GCF_021535155.1_ASM2153515v1_genomic                             4.14%    passed     29.53%
+  61  GCF_040820795.1_INP40543_genomic                                 3.30%    passed     86.75%
+  62  GCF_040209325.1_ASM4020932v1_genomic                             3.41%    passed     97.05%
+  63  GCF_040208985.1_ASM4020898v1_genomic                             3.44%    passed     96.39%
+  64  GCF_003253775.1                                                 98.98%    failed      0.00%
+  65  GCF_027912555.1_ASM2791255v1_genomic                             3.17%    passed     82.07%
+  66  GCF_045348265.1_Mtb11.fasta_genomic                              3.31%    passed     87.97%
+  67  GCA_033127285.1_ASM3312728v1_genomic                             5.01%    passed      7.21%
+  68  GCF_022870445.1_ASM2287044v1_genomic                             3.75%    passed     70.41%
+  69  GCF_040820185.1_INP17688_genomic                                 3.85%    failed      4.62%
+  70  GCF_022870385.1_ASM2287038v1_genomic                             3.71%    passed     89.31%
+  71  GCF_022870245.1_ASM2287024v1_genomic                             4.03%    passed     95.26%
+  72  GCF_028583185.1_ASM2858318v1_genomic                             3.90%    passed     99.18%
+  73  GCF_037942495.1_Mtb1.fasta_genomic                               3.41%    passed     98.85%
+  74  GCF_047324125.1_ASM4732412v1_genomic                             3.71%    passed     93.25%
+  75  GCF_040208995.1_ASM4020899v1_genomic                             3.35%    passed     96.63%
+  76  GCF_040209395.1_ASM4020939v1_genomic                             3.42%    passed     95.37%
+  77  GCF_022870225.1_ASM2287022v1_genomic                             3.96%    passed     87.58%
+  78  GCF_022870125.1_ASM2287012v1_genomic                             3.59%    passed     48.43%
+  79  GCF_040209215.1_ASM4020921v1_genomic                             3.43%    passed     95.55%
+  80  GCF_022870145.1_ASM2287014v1_genomic                             3.92%    passed     42.81%
+  81  GCF_022870305.1_ASM2287030v1_genomic                             3.72%    passed     72.51%
+  82  GCF_022870325.1_ASM2287032v1_genomic                             3.63%    passed     94.46%
+  83  GCF_019670745.1_ASM1967074v1_genomic                             3.50%    passed     99.35%
+  84  GCF_026185275.1_ASM2618527v1_genomic                             3.35%    passed     76.88%
+  85  GCF_028583265.1_ASM2858326v1_genomic                             3.79%    passed     99.89%
+  86  GCA_011044455.1_ASM1104445v1_genomic                             4.78%    passed     27.02%
+  87  GCF_040820785.1_INP37446_genomic                                 3.38%    passed     97.26%
+  88  GCF_028583225.1_ASM2858322v1_genomic                             3.98%    passed     94.09%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                            4.72%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000027526 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.362 seconds
+
+NOTE: 173 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5344521.161
+2. Current log-likelihood: -5303645.825
+3. Current log-likelihood: -5303466.282
+4. Current log-likelihood: -5303450.957
+5. Current log-likelihood: -5303444.833
+6. Current log-likelihood: -5303442.383
+7. Current log-likelihood: -5303441.186
+8. Current log-likelihood: -5303440.628
+9. Current log-likelihood: -5303440.355
+10. Current log-likelihood: -5303440.220
+Optimal log-likelihood: -5303440.154
+Rate parameters:  A-C: 1.17803  A-G: 3.12701  A-T: 0.68210  C-G: 0.97266  C-T: 3.20349  G-T: 1.00000
+Base frequencies:  A: 0.168  C: 0.322  G: 0.335  T: 0.174
+Gamma shape alpha: 0.020
+Parameters optimization took 10 rounds (21.173 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.267771 secs using 99.91% CPU
+Computing ML distances took 0.282867 sec (of wall-clock time) 0.282619 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00061465 secs using 118.9% CPU
+Computing RapidNJ tree took 0.002758 sec (of wall-clock time) 0.002874 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5309595.623
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 26.914 second
+Computing log-likelihood of 98 initial trees ... 31.705 seconds
+Current best score: -5303360.466
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5303342.828
+Iteration 10 / LogL: -5303533.209 / Time: 0h:1m:50s
+Iteration 20 / LogL: -5303716.387 / Time: 0h:2m:13s
+Finish initializing candidate tree set (16)
+Current best tree score: -5303342.828 / CPU time: 109.896
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -5303342.661
+Iteration 30 / LogL: -5303510.446 / Time: 0h:3m:10s (0h:7m:46s left)
+Iteration 40 / LogL: -5304699.885 / Time: 0h:4m:8s (0h:6m:27s left)
+Iteration 50 / LogL: -5304434.682 / Time: 0h:5m:2s (0h:5m:13s left)
+Iteration 60 / LogL: -5303603.999 / Time: 0h:5m:57s (0h:4m:8s left)
+Iteration 70 / LogL: -5303414.465 / Time: 0h:6m:49s (0h:3m:3s left)
+Iteration 80 / LogL: -5303362.154 / Time: 0h:7m:46s (0h:2m:3s left)
+Iteration 90 / LogL: -5303869.579 / Time: 0h:8m:40s (0h:1m:4s left)
+Iteration 100 / LogL: -5303830.106 / Time: 0h:9m:31s (0h:0m:5s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:9m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5303342.661
+Optimal log-likelihood: -5303342.651
+Rate parameters:  A-C: 1.17729  A-G: 3.11453  A-T: 0.68846  C-G: 0.97904  C-T: 3.20278  G-T: 1.00000
+Base frequencies:  A: 0.168  C: 0.322  G: 0.335  T: 0.174
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (1.810 sec)
+BEST SCORE FOUND : -5303342.651
+Total tree length: 0.341
+
+Total number of iterations: 102
+CPU time used for tree search: 556.832 sec (0h:9m:16s)
+Wall-clock time used for tree search: 557.799 sec (0h:9m:17s)
+Total CPU time used: 582.292 sec (0h:9m:42s)
+Total wall-clock time used: 583.351 sec (0h:9m:43s)
+
+Analysis results written to: 
+  IQ-TREE report:                core_gene_alignment.aln.iqtree
+  Maximum-likelihood tree:       core_gene_alignment.aln.treefile
+  Likelihood distances:          core_gene_alignment.aln.mldist
+  Screen log file:               core_gene_alignment.aln.log
+
+Date and Time: Fri Jun  6 14:42:10 2025

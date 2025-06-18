@@ -1,0 +1,285 @@
+IQ-TREE 2.4.0 built Feb 12 2025
+
+Input file name: core_gene_alignment.aln
+Type of analysis: tree reconstruction
+Random seed number: 315555
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 88 sequences with 3632961 nucleotide sites
+Number of constant sites: 3.59941e+06 (= 99.0766% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3.59941e+06 (= 99.0766% of all sites)
+Number of parsimony informative sites: 11931
+Number of distinct site patterns: 15153
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.1773
+  A-G: 3.1145
+  A-T: 0.6885
+  C-G: 0.9790
+  C-T: 3.2028
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1684
+  pi(C) = 0.3224
+  pi(G) = 0.3352
+  pi(T) = 0.174
+
+Rate matrix Q:
+
+  A    -1.278    0.3144    0.8646    0.0992
+  C    0.1642   -0.8975    0.2718    0.4615
+  G    0.4345    0.2614     -0.84    0.1441
+  T   0.09604    0.8552    0.2776    -1.229
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.02003
+
+ Category  Relative_rate  Proportion
+  1         4.844e-31      0.25
+  2         1.041e-15      0.25
+  3         9.691e-07      0.25
+  4         4              0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5303342.6511 (s.e. 3248.6883)
+Unconstrained log-likelihood (without tree): -11197201.1726
+Number of free parameters (#branches + #model parameters): 182
+Akaike information criterion (AIC) score: 10607049.3022
+Corrected Akaike information criterion (AICc) score: 10607049.3205
+Bayesian information criterion (BIC) score: 10609434.5138
+
+Total tree length (sum of branch lengths): 0.3410
+Sum of internal branch lengths: 0.0045 (1.3100% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCF_028583165.1_ASM2858316v1_genomic' is drawn at root
+
++--GCF_028583165.1_ASM2858316v1_genomic
+|
+|                                                     +--GCF_037076275.1_ASM3707627v1_genomic
+|                                                  +--|
+|                                                  |  +--GCF_037076305.1_ASM3707630v1_genomic
+|                                               +--|
+|                                               |  +--GCF_037076295.1_ASM3707629v1_genomic
+|                                            +--|
+|                                            |  +--GCF_037076265.1_ASM3707626v1_genomic
+|                                         +--|
+|                                         |  +--GCF_037076315.1_ASM3707631v1_genomic
+|                                      +--|
+|                                      |  +--GCF_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic
+|                                   +--|
+|                                   |  +--GCF_022870125.1_ASM2287012v1_genomic
+|                                +--|
+|                                |  +--GCF_022870425.1_ASM2287042v1_genomic
+|                             +--|
+|                             |  |              +--GCF_040209205.1_ASM4020920v1_genomic
+|                             |  |           +--|
+|                             |  |           |  +--GCF_040208985.1_ASM4020898v1_genomic
+|                             |  |        +--|
+|                             |  |        |  +--GCF_040209325.1_ASM4020932v1_genomic
+|                             |  |     +--|
+|                             |  |     |  |  +--GCF_040209395.1_ASM4020939v1_genomic
+|                             |  |     |  +--|
+|                             |  |     |     +--GCF_040209215.1_ASM4020921v1_genomic
+|                             |  |  +--|
+|                             |  |  |  +--GCF_040208995.1_ASM4020899v1_genomic
+|                             |  +--|
+|                             |     +--GCF_022870445.1_ASM2287044v1_genomic
+|                          +--|
+|                          |  |              +--GCF_022870265.1_ASM2287026v1_genomic
+|                          |  |           +--|
+|                          |  |           |  +--GCF_045348065.1_Mtb4.fasta_genomic
+|                          |  |        +--|
+|                          |  |        |  +--GCF_022870225.1_ASM2287022v1_genomic
+|                          |  |     +--|
+|                          |  |     |  +--GCF_022870245.1_ASM2287024v1_genomic
+|                          |  |  +--|
+|                          |  |  |  +--GCF_045348255.1_Mtb10.fasta_genomic
+|                          |  +--|
+|                          |     +----------------------------------------------------------GCF_003253775.1
+|                       +--|
+|                       |  |                       +--GCF_045348055.1_Mtb3.fasta_genomic
+|                       |  |                    +--|
+|                       |  |                    |  +--GCF_045348245.1_Mtb5.fasta_genomic
+|                       |  |                 +--|
+|                       |  |                 |  +--GCF_045348265.1_Mtb11.fasta_genomic
+|                       |  |              +--|
+|                       |  |              |  |  +--GCF_037942805.1_Mtb2.fasta_genomic
+|                       |  |              |  +--|
+|                       |  |              |     |     +--GCF_045345655.1_AMtb_1_202402_genomic
+|                       |  |              |     |  +--|
+|                       |  |              |     |  |  +--GCF_021535155.1_ASM2153515v1_genomic
+|                       |  |              |     +--|
+|                       |  |              |        +--GCF_026185275.1_ASM2618527v1_genomic
+|                       |  |           +--|
+|                       |  |           |  |  +--GCF_037942495.1_Mtb1.fasta_genomic
+|                       |  |           |  +--|
+|                       |  |           |     +--GCF_040820785.1_INP37446_genomic
+|                       |  |        +--|
+|                       |  |        |  +--GCF_030285725.1_ASM3028572v1_genomic
+|                       |  |     +--|
+|                       |  |     |  |     +--GCF_013010385.1_ASM1301038v1_genomic
+|                       |  |     |  |  +--|
+|                       |  |     |  |  |  +--GCF_030053035.1_ASM3005303v1_genomic
+|                       |  |     |  +--|
+|                       |  |     |     |  +--GCF_044324775.1_ASM4432477v1_genomic
+|                       |  |     |     +--|
+|                       |  |     |        +--GCF_039555355.1_Mtb6.fasta_genomic
+|                       |  |  +--|
+|                       |  |  |  |  +--GCF_022870305.1_ASM2287030v1_genomic
+|                       |  |  |  +--|
+|                       |  |  |     +--GCF_022870325.1_ASM2287032v1_genomic
+|                       |  +--|
+|                       |     |                 +--GCF_040820805.1_INP40579_genomic
+|                       |     |              +--|
+|                       |     |              |  |                 +--GCF_040820175.1_INP15966_genomic
+|                       |     |              |  |              +--|
+|                       |     |              |  |              |  +--GCA_011044455.1_ASM1104445v1_genomic
+|                       |     |              |  |           +--|
+|                       |     |              |  |           |  +--GCF_040820185.1_INP17688_genomic
+|                       |     |              |  |        +--|
+|                       |     |              |  |        |  |  +--GCF_026167585.1_ASM2616758v1_genomic
+|                       |     |              |  |        |  +--|
+|                       |     |              |  |        |     |  +--GCF_016917775.1_ASM1691777v1_genomic
+|                       |     |              |  |        |     +--|
+|                       |     |              |  |        |        +--GCF_027912555.1_ASM2791255v1_genomic
+|                       |     |              |  |     +**|
+|                       |     |              |  |     |  |  +--GCF_040820775.1_INP37032_genomic
+|                       |     |              |  |     |  +--|
+|                       |     |              |  |     |     +--GCF_040820795.1_INP40543_genomic
+|                       |     |              |  |  +--|
+|                       |     |              |  |  |  +--GCF_037076325.1_ASM3707632v1_genomic
+|                       |     |              |  +**|
+|                       |     |              |     +--GCF_040821995.1_INP40868_genomic
+|                       |     |           +--|
+|                       |     |           |  |     +--GCF_030285705.1_ASM3028570v1_genomic
+|                       |     |           |  |  +--|
+|                       |     |           |  |  |  |  +--GCF_030285685.1_ASM3028568v1_genomic
+|                       |     |           |  |  |  +--|
+|                       |     |           |  |  |     +--GCF_030285745.1_ASM3028574v1_genomic
+|                       |     |           |  +--|
+|                       |     |           |     +--GCF_030285765.1_ASM3028576v1_genomic
+|                       |     |        +--|
+|                       |     |        |  +--GCF_037076285.1_ASM3707628v1_genomic
+|                       |     |     +--|
+|                       |     |     |  +--GCF_037076335.1_ASM3707633v1_genomic
+|                       |     |  +--|
+|                       |     |  |  +--GCF_019670745.1_ASM1967074v1_genomic
+|                       |     +--|
+|                       |        |  +--GCF_022870405.1_ASM2287040v1_genomic
+|                       |        +--|
+|                       |           |  +--GCF_040820205.1_INP29366_genomic
+|                       |           +--|
+|                       |              +--GCA_033127285.1_ASM3312728v1_genomic
+|                    +--|
+|                    |  +--GCF_022870285.1_ASM2287028v1_genomic
+|                 +--|
+|                 |  |        +--GCF_022870345.1_ASM2287034v1_genomic
+|                 |  |     +--|
+|                 |  |     |  +--GCF_022870385.1_ASM2287038v1_genomic
+|                 |  |  +--|
+|                 |  |  |  +--GCF_022870365.1_ASM2287036v1_genomic
+|                 |  +--|
+|                 |     |  +--GCF_040820195.1_INP25474_genomic
+|                 |     +--|
+|                 |        +--GCF_037101195.1_ASM3710119v1_genomic
+|              +--|
+|              |  +--GCF_022870145.1_ASM2287014v1_genomic
+|           +--|
+|           |  |  +--GCF_022870205.1_ASM2287020v1_genomic
+|           |  +--|
+|           |     |  +--GCF_022870185.1_ASM2287018v1_genomic
+|           |     +--|
+|           |        +--GCF_022870165.1_ASM2287016v1_genomic
+|        +--|
+|        |  +--GCF_039555375.1_Mtb7.fasta_genomic
+|     +--|
+|     |  +--GCF_039555365.1_Mtb9.fasta_genomic
+|  +--|
+|  |  |        +--GCF_028583145.1_ASM2858314v1_genomic
+|  |  |     +--|
+|  |  |     |  +--GCF_028583205.1_ASM2858320v1_genomic
+|  |  |  +--|
+|  |  |  |  |  +--GCF_028583185.1_ASM2858318v1_genomic
+|  |  |  |  +--|
+|  |  |  |     +--GCF_028583265.1_ASM2858326v1_genomic
+|  |  +--|
+|  |     |        +--GCF_028583305.1_ASM2858330v1_genomic
+|  |     |     +--|
+|  |     |     |  +--GCF_028583245.1_ASM2858324v1_genomic
+|  |     |  +--|
+|  |     |  |  |  +--GCF_015482805.1_ASM1548280v1_genomic
+|  |     |  |  +--|
+|  |     |  |     +--GCF_028752235.1_ASM2875223v1_genomic
+|  |     +--|
+|  |        +--GCF_028583225.1_ASM2858322v1_genomic
++--|
+|  |           +--GCF_042982005.1_MBWGS366_genomic
+|  |        +--|
+|  |        |  +--GCF_026727575.1_ASM2672757v1_genomic
+|  |     +--|
+|  |     |  +--GCA_041272255.1_UCD_Mbov_1.1_genomic
+|  |  +--|
+|  |  |  +--GCF_026727615.1_ASM2672761v1_genomic
+|  +--|
+|     |  +--GCF_028768425.1_ASM2876842v1_genomic
+|     +--|
+|        +--GCF_047324125.1_ASM4732412v1_genomic
+|
+|  +--GCF_028583285.1_ASM2858328v1_genomic
++--|
+   +--GCF_028583125.1_ASM2858312v1_genomic
+
+Tree in newick format:
+
+(GCF_028583165.1_ASM2858316v1_genomic:0.0000723550,((((((((((((((((((GCF_037076275.1_ASM3707627v1_genomic:0.0000017131,GCF_037076305.1_ASM3707630v1_genomic:0.0000048859):0.0000362981,GCF_037076295.1_ASM3707629v1_genomic:0.0000270672):0.0000038994,GCF_037076265.1_ASM3707626v1_genomic:0.0000356160):0.0000111978,GCF_037076315.1_ASM3707631v1_genomic:0.0000381512):0.0000908993,GCF_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic:0.0001770396):0.0000142805,GCF_022870125.1_ASM2287012v1_genomic:0.0002303094):0.0000326350,GCF_022870425.1_ASM2287042v1_genomic:0.0001595804):0.0000156026,(((((GCF_040209205.1_ASM4020920v1_genomic:0.0000109496,GCF_040208985.1_ASM4020898v1_genomic:0.0000104008):0.0000103752,GCF_040209325.1_ASM4020932v1_genomic:0.0000236686):0.0000251538,(GCF_040209395.1_ASM4020939v1_genomic:0.0000028763,GCF_040209215.1_ASM4020921v1_genomic:0.0000058157):0.0000727386):0.0000606477,GCF_040208995.1_ASM4020899v1_genomic:0.0000247981):0.0000198602,GCF_022870445.1_ASM2287044v1_genomic:0.0002763850):0.0000802350):0.0001495797,(((((GCF_022870265.1_ASM2287026v1_genomic:0.0000313652,GCF_045348065.1_Mtb4.fasta_genomic:0.0000351158):0.0000360620,GCF_022870225.1_ASM2287022v1_genomic:0.0001716021):0.0000020934,GCF_022870245.1_ASM2287024v1_genomic:0.0000585875):0.0000177844,GCF_045348255.1_Mtb10.fasta_genomic:0.0000815412):0.0000016438,GCF_003253775.1:0.3292351925):0.0003053669):0.0000873674,((((((((GCF_045348055.1_Mtb3.fasta_genomic:0.0000853496,GCF_045348245.1_Mtb5.fasta_genomic:0.0000017412):0.0000600920,GCF_045348265.1_Mtb11.fasta_genomic:0.0000753708):0.0000362919,(GCF_037942805.1_Mtb2.fasta_genomic:0.0000600932,((GCF_045345655.1_AMtb_1_202402_genomic:0.0000002753,GCF_021535155.1_ASM2153515v1_genomic:0.0001591517):0.0000005505,GCF_026185275.1_ASM2618527v1_genomic:0.0000002753):0.0000772760):0.0000234872):0.0000032543,(GCF_037942495.1_Mtb1.fasta_genomic:0.0001171720,GCF_040820785.1_INP37446_genomic:0.0000662432):0.0000565559):0.0000037796,GCF_030285725.1_ASM3028572v1_genomic:0.0000940326):0.0000003521,((GCF_013010385.1_ASM1301038v1_genomic:0.0000014309,GCF_030053035.1_ASM3005303v1_genomic:0.0000014311):0.0001203249,(GCF_044324775.1_ASM4432477v1_genomic:0.0000297808,GCF_039555355.1_Mtb6.fasta_genomic:0.0000310226):0.0002230242):0.0000132279):0.0000556984,(GCF_022870305.1_ASM2287030v1_genomic:0.0001238757,GCF_022870325.1_ASM2287032v1_genomic:0.0002269955):0.0001293323):0.0000668607,((((((GCF_040820805.1_INP40579_genomic:0.0000567779,((((((GCF_040820175.1_INP15966_genomic:0.0003242723,GCA_011044455.1_ASM1104445v1_genomic:0.0000602996):0.0000803666,GCF_040820185.1_INP17688_genomic:0.0002285841):0.0000769784,(GCF_026167585.1_ASM2616758v1_genomic:0.0000017150,(GCF_016917775.1_ASM1691777v1_genomic:0.0000034667,GCF_027912555.1_ASM2791255v1_genomic:0.0000043175):0.0000017170):0.0000266550):0.0000013716,(GCF_040820775.1_INP37032_genomic:0.0000038613,GCF_040820795.1_INP40543_genomic:0.0000029608):0.0000285710):0.0000000402,GCF_037076325.1_ASM3707632v1_genomic:0.0000288657):0.0000005182,GCF_040821995.1_INP40868_genomic:0.0000245015):0.0000000602):0.0000219401,((GCF_030285705.1_ASM3028570v1_genomic:0.0000324651,(GCF_030285685.1_ASM3028568v1_genomic:0.0000212964,GCF_030285745.1_ASM3028574v1_genomic:0.0000125205):0.0000236455):0.0000043166,GCF_030285765.1_ASM3028576v1_genomic:0.0000425033):0.0000266304):0.0000311732,GCF_037076285.1_ASM3707628v1_genomic:0.0000422125):0.0000057334,GCF_037076335.1_ASM3707633v1_genomic:0.0000810310):0.0000743647,GCF_019670745.1_ASM1967074v1_genomic:0.0000807289):0.0000584731,(GCF_022870405.1_ASM2287040v1_genomic:0.0000408063,(GCF_040820205.1_INP29366_genomic:0.0001138072,GCA_033127285.1_ASM3312728v1_genomic:0.0001683295):0.0000882287):0.0001626015):0.0000657920):0.0000004964):0.0002407557,GCF_022870285.1_ASM2287028v1_genomic:0.0001756489):0.0000074219,(((GCF_022870345.1_ASM2287034v1_genomic:0.0000498869,GCF_022870385.1_ASM2287038v1_genomic:0.0001082680):0.0000371504,GCF_022870365.1_ASM2287036v1_genomic:0.0002908362):0.0001460659,(GCF_040820195.1_INP25474_genomic:0.0000577260,GCF_037101195.1_ASM3710119v1_genomic:0.0000268942):0.0002272066):0.0000164009):0.0000591902,GCF_022870145.1_ASM2287014v1_genomic:0.0004923403):0.0001193097,(GCF_022870205.1_ASM2287020v1_genomic:0.0002406059,(GCF_022870185.1_ASM2287018v1_genomic:0.0001396460,GCF_022870165.1_ASM2287016v1_genomic:0.0001877400):0.0000205711):0.0001265226):0.0000659495,GCF_039555375.1_Mtb7.fasta_genomic:0.0002215316):0.0001382285,GCF_039555365.1_Mtb9.fasta_genomic:0.0002714922):0.0000792445,(((GCF_028583145.1_ASM2858314v1_genomic:0.0001327955,GCF_028583205.1_ASM2858320v1_genomic:0.0000604009):0.0000493498,(GCF_028583185.1_ASM2858318v1_genomic:0.0000682821,GCF_028583265.1_ASM2858326v1_genomic:0.0000500231):0.0000002844):0.0000687665,(((GCF_028583305.1_ASM2858330v1_genomic:0.0001087650,GCF_028583245.1_ASM2858324v1_genomic:0.0000522745):0.0000898401,(GCF_015482805.1_ASM1548280v1_genomic:0.0000108629,GCF_028752235.1_ASM2875223v1_genomic:0.0000322036):0.0000755128):0.0000009939,GCF_028583225.1_ASM2858322v1_genomic:0.0001269574):0.0000018572):0.0000279026):0.0000140531,((((GCF_042982005.1_MBWGS366_genomic:0.0000126834,GCF_026727575.1_ASM2672757v1_genomic:0.0000085079):0.0000103971,GCA_041272255.1_UCD_Mbov_1.1_genomic:0.0000729701):0.0000025262,GCF_026727615.1_ASM2672761v1_genomic:0.0000249181):0.0000359257,(GCF_028768425.1_ASM2876842v1_genomic:0.0001600917,GCF_047324125.1_ASM4732412v1_genomic:0.0000762411):0.0000014553):0.0000171926):0.0000022354,(GCF_028583285.1_ASM2858328v1_genomic:0.0000814971,GCF_028583125.1_ASM2858312v1_genomic:0.0000702755):0.0000620154);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t core_gene_alignment.aln.treefile -m "GTR{1.17729,3.11453,0.688463,0.979043,3.20278}+F{0.168437,0.322394,0.335194,0.173975}+G4{0.0200269}" --length 3632961
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s core_gene_alignment.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s core_gene_alignment.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 14:42:10 2025
+Total CPU time used: 582.292309 seconds (0h:9m:42s)
+Total wall-clock time used: 583.356653 seconds (0h:9m:43s)
+

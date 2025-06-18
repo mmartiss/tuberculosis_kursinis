@@ -1,0 +1,10 @@
+organism: Mycobacterium tuberculosis strain 
+contigs: 1
+bases: 4393820
+CDS: 4041
+gene: 4136
+misc_RNA: 38
+rRNA: 3
+repeat_region: 2
+tRNA: 53
+tmRNA: 1
