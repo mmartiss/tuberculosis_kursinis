@@ -1,6 +1,7 @@
 # tuberculosis_kursinis
 
 Virulentiškumo genetinių determinančių paieška Mycobacterium tuberculosis pangenome
+Darbą atliko: Martynas Abraitis
 
 main.R - R kodas, grafiko generavimui ir duomenų analizei.
 
