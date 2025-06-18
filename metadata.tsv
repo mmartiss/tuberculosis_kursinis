@@ -1,0 +1,88 @@
+BioSample	abs_air_humidity	age	air_temp	alternate_ID	biomaterial_provider	build_occup_type	building_setting	carb_dioxide	collected_by	collection_date	culture_collection	env_broad_scale	env_local_scale	env_medium	filter_type	genotype	geo_loc_name	growth_med	health_state	heat_cool_type	host	host_age	host_description	host_disease	host_disease_outcome	host_disease_stage	host_sex	host_subject_id	host_tissue_sampled	indoor_space	isol_growth_condt	isolate	isolation_source	lat_lon	light_type	locus_tag_prefix	num_replicons	occup_samp	occupant_dens_samp	organism_count	orgmod_note	pathotype	project_name	ref_biomaterial	rel_air_humidity	sample number	sample_name	sample_type	space_typ_state	strain	sub_species	subsrc_note	typ_occupant_dens	ventilation_type
+SAMD00089643										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN049	1						Analysis of lineage 1 strains of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN-049_2			DN049				
+SAMD00089644										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN059	1						Analysis of lineage 1 strains of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN-059			DN059				
+SAMD00269948										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN067	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN067			DN067				
+SAMD00269949										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN068	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN068			DN068				
+SAMD00269950										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN101	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN101			DN101				
+SAMD00269951										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN105	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN105			DN105				
+SAMD00269952										2015		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN146	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN146			DN146				
+SAMD00269953										2016		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN181	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN181			DN181				
+SAMD00269954										2016		not applicable	not applicable	not applicable			Viet Nam:Da Nang				Homo sapiens										not applicable			not applicable		VNDN251	1						Complete genome sequences of Mycobacterium tuberculosis in Da Nang, Vietnam	not applicable			DN251			DN251				
+SAMD00322307										2020		missing	missing	missing			Japan														not applicable			missing		MTR2092	1						Whole genome sequencing of Mycobacterium tuberculosis R2092	missing			W-R2092			R2092				
+SAMN14150054									Bushma T.V.	2019-03-12							Belarus: Minsk				Homo sapiens	53		Respiratory Tract Tuberculosis	recovery		male						sputum	53.89 N 27.54 E																5005				
+SAMN14598146				4860-Gomel-MDR	Republic Scientific and Practical center of Pulmonology and Tuberculosis; Republican Reference-Laboratory: Phone +37517-2898452, Nikolenko Helena N.				Bushma T.	2019-04-19							Belarus:Minsk		lung tuberculosis		Homo sapiens	45		lung tuberculosis	recovery		male	4860-2019					sputim from lungs	53.55 N 27.33 E								MDR								4860				
+SAMN16406462				PN0157					University of Basel, Switzerland	1999-06-15							Philippines				Homo sapiens			Tuberculosis									Human sputum	NA																N0157				
+SAMN16406463				PN0072					University of Basel, Switzerland	1997-06-15							India				Homo sapiens			Tuberculosis									Human sputum	NA																N0072				
+SAMN16406464				PN0031					University of Basel, Switzerland	1994-06-15							China				Homo sapiens			Tuberculosis									Human sputum	NA																N0031				
+SAMN16406466				PN0004					University of Basel, Switzerland	2010-03-01							India				Homo sapiens			Tuberculosis									Human sputum	NA																N0004				
+SAMN16406467				PN1274					University of Basel, Switzerland	2011-11-15							Afghanistan				Homo sapiens			Tuberculosis									Human sputum	NA																N1274				
+SAMN16406468				PN0054					University of Basel, Switzerland	1999-06-15							Ethiopia				Homo sapiens			Tuberculosis									Human sputum	NA																N0054				
+SAMN16406469				PN1216					University of Basel, Switzerland	2011-02-15							Ghana				Homo sapiens			Tuberculosis									Human sputum	NA																N1216				
+SAMN16406470				PN0136					University of Basel, Switzerland	1991-07-19							USA				Homo sapiens			Tuberculosis									Human sputum	NA																N0136				
+SAMN16406471				PN1283					University of Basel, Switzerland	2011-11-15							Germany				Homo sapiens			Tuberculosis									Human sputum	NA																N1283				
+SAMN16406472				PN1176					University of Basel, Switzerland	2009-09-11							Ghana				Homo sapiens			Tuberculosis									Human sputum	NA																N1176				
+SAMN16406473				PN1272					University of Basel, Switzerland	2011-11-15							Ghana				Homo sapiens			Tuberculosis									Human sputum	NA																N1272				
+SAMN16406474				PN1268					University of Basel, Switzerland	2011-11-15							Sierra Leone				Homo sapiens			Tuberculosis									Human sputum	NA																N1268				
+SAMN16406475				PN1201					University of Basel, Switzerland	2009-02-17							Ghana				Homo sapiens			Tuberculosis									Human sputum	NA																N1201				
+SAMN16406476				PN0091					University of Basel, Switzerland	2002-06-14							Gambia				Homo sapiens			Tuberculosis									Human sputum	NA																N0091				
+SAMN16406477				PN1202					University of Basel, Switzerland	2008-02-05							Ghana				Homo sapiens			Tuberculosis									Human sputum	NA																N1202				
+SAMN16406478				PN3913					University of Basel, Switzerland	2011-11-06							Ethiopia				Homo sapiens			Tuberculosis									Human sputum	NA																N3913				
+SAMN16406479				PN0069					University of Basel, Switzerland	1998-09-11							China				Homo sapiens			Tuberculosis									Human sputum	NA																N0069				
+SAMN16605479		9 day culture								1972		Dedicated production area for BCG vaccine	single cell strain culture	cultured cell population			Bulgaria: Sofia	Glycerinated potato medium, Sauton medium													Requirements for Dried BCG vaccine (WHO Technical Report Series)			42.41 N 23.20 E			1							WHO/BS/10.2148				bacterial culture		BCG SL 222 Sofia		descending from Russian BCG-I strain		
+SAMN17832565				BLR-pre-XDR					Bushma T.V.	2019-06-25							Belarus:Minsk				Homo sapiens sapiens	42		Tuberculosis of lung	recovery		male	#11502-2019	sputum				sputum	53.55 N 27.33 E																11502				
+SAMN22456105										2000							Poland																working seed lot 3122000 vaccine culture															bacterial culture		Moreau PL				
+SAMN23482338										2019-01-16		culture	mice	mice			not collected														7H10			not collected			one							publication		10				M20				
+SAMN27865558										1999		Animal-associated biome	Herd	Organ			France: (59 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb1101				
+SAMN27865559										2011-04		Animal-associated biome	Herd	Organ			France: (74 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb3114				
+SAMN27865560										2005-06		Animal-associated biome	Herd	Organ			France: (24 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb1855				
+SAMN27865561										2008-04		Animal-associated biome	Herd	Organ			France: (64 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb2377				
+SAMN27865562										2008-07		Animal-associated biome	Herd	Organ			France: (24 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb2487				
+SAMN27865563										2001-02		Animal-associated biome	Forest	Organ			France: (76 department)				Deer										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb3602				
+SAMN27865564										2007-09		Animal-associated biome	Herd	Organ			France: (9 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb2269				
+SAMN27865565										1994-11		Animal-associated biome	Herd	Organ			France: (64 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb0531				
+SAMN27865566										1997-06		Animal-associated biome	Herd	Organ			France: (20 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb0820				
+SAMN27865567										1994-08		Animal-associated biome	Herd	Organ			France: (64 department)				Cattle										Middlebrook 7H9+ ADC enrichment supplement			Not applicable			1							Coming soon						Mb0486				
+SAMN28173806										NA							USA: New Jersey																Lab culture															Cell culture		H37Rv-1				
+SAMN30701482									Medical Life Sciences Institute, Thailand	missing						L 2.1 proto-Beijing	Thailand: Chiang Rai province				Homo sapiens			Pulmonary TB									sputum	19.9105 N 99.8406 E																MTBCR170941				
+SAMN31644110									Mogilev anti-tuberculosis clinic	2019-12-24							Belarus				Homo sapiens		male	lung tuberculosis	recovery	treated with delamanid and badaquiline	male	N 231-24-12-2019	sputum			missing	sputum	52.4417 N 31.0000 E																BLR-31d				
+SAMN31746122									CFIA	2018-10-28							Canada: British Columbia				Bos taurus			Bovine tuberculosis									lymph node	not provided																2018/0565				
+SAMN31746260									CFIA	2016-11						SB0673 MLVA2-2-5-3-2-2-2-3-2-4-7-3-4-5-4-2-5-3-3-3-2-4-1-2	Canada: Alberta				Bos taurus			Bovine tuberculosis									lymph node	not provided																2016/0386				
+SAMN32238502									Bushma T.V.	2019-04-24							Belarus				Homo sapiens	49		Respiratory Tract Tuberculosis	recovery		male					not provided	sputum	53.89 N 27.54 E																BLR 4299 2019				
+SAMN32350377									Ramaneika A.N.	2019-08-09							Belarus				Homo sapiens	43		Respiratory Tract Tuberculosis	recovery		male					not provided	sputum	53.89 N 27.54 E																BLR 9248 2019				
+SAMN33010680									Dr. Todd Shury, Parks Canada	2022-03-11							Canada: Wood Buffalo National Park				Bison bison athabascae			Bovine tuberculosis			male					missing	lymph node	not provided																OLF-AH-2022-TB-0122				
+SAMN35654954									Umpeleva	2019-11-20							Russia: Ekaterinburg				Homo sapiens			tuberculosis								missing	sputum	56.8519 N 60.6122 E																3320				
+SAMN35655917									Umpeleva	2021-06-25							Russia: Ekaterinburg				Homo sapiens			tuberculosis								missing	sputum	56.8519 N 60.6122 E																17221				
+SAMN35655918									Umpeleva	2021-04-07							Russia: Ekaterinburg				Homo sapiens			tuberculosis								missing	sputum	56.8519 N 60.6122 E																6721				
+SAMN35655919									Umpeleva	2021-03-24							Russia: Ekaterinburg				Homo sapiens			tuberculosis								missing	sputum	56.8519 N 60.6122 E																5521				
+SAMN35655980									Umpeleva	2021-10-18							Russia: Ekaterinburg				Homo sapiens			tuberculosis								missing	sputum	56.8519 N 60.6122 E																25421				
+SAMN37563197									Angkana Chaiprasert	2007							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.2.1									10				
+SAMN37563198									Angkana Chaiprasert	2008							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.2.1									11				
+SAMN37563199									Angkana Chaiprasert	2012							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.2.1.1									12				
+SAMN37563200									Angkana Chaiprasert	2011							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.1									13				
+SAMN37563201									Kiatichai Faksri	2014							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.2.1									14				
+SAMN37563202									Kiatichai Faksri	2014							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 4.5									15				
+SAMN37563203									Kiatichai Faksri	2015							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.2.1									16				
+SAMN37563204									Kiatichai Faksri	2015							Thailand				Homo sapiens			Tuberculosis								missing	sputum	13.758427 N 100.485161 E							lineage 2.2.1									17				
+SAMN37563205									Bureau of Tuberculosis lab	2017							Thailand				Homo sapiens			Tuberculosis								missing	sputum	12.591 N 102.087 E							lineage 2.2.1									18				
+SAMN37576636									UCD	2020							Ireland: Wicklow				Felis catus			Lameness								missing	Elbow tissue	53.309835 N 6.221540 W																3488				
+SAMN40453083										missing							missing				Homo sapiens																											cell culture		mc26030				
+SAMN40504538										Unknown							Republic of the Congo				Homo sapiens																											single cell		Mtb1				
+SAMN40504549										Unknown							Belgium				Homo sapiens																											single cell		Mtb2				
+SAMN40530662									Canadian Food Inspection Agency	2023							Canada: SK				Bos taurus		farm	Bovine tuberculosis								missing	Tissue	not collected																2023/0113				
+SAMN40601976										Unknown							Rwanda				Homo sapiens																											single cell		Mtb3				
+SAMN40619108										Unknown							Cote d'Ivoire				Homo sapiens																											single cell		Mtb4				
+SAMN41068413									Medical Life Sciences Institute (MLSI),Department of Medical Sciences (DMSc)	2020-03-20						L1.1.1.7	Thailand:Chiang Rai				Homo sapiens	63		Pulmonary TB	Cure		male					missing	sputum	19.9105 N 99.8406 E																MTBCR170913		lineage 1		
+SAMN41141299									BCCM	Unknown							Burundi				Homo sapiens			Unknown									Unknown	Unknown																Mtb5				
+SAMN41141372									BCCM	Unknown							Cameroon				Homo sapiens			Unknown									Unknown	Unknown																Mtb6				
+SAMN41141444									BCCM	Unknown							Denmark				Not determined			Unknown									Unknown	Unknown																Mtb7				
+SAMN41141464									BCCM	Unknown							Unknown				Not determined			Unknown									Unknown	Unknown																Mtb9				
+SAMN41141468									BCCM	Unknown							USA				Homo sapiens			Unknown									Unknown	Unknown																Mtb10	tuberculosis			
+SAMN41141517									BCCM	Unknown							Burundi				Homo sapiens			Unknown									Unknown	Unknown																Mtb11	tuberculosis			
+SAMN41453946									RITM TB DOTS Center	2019-08-06							Philippines				Homo sapiens			Tuberculosis									sputum	14.4100 N 121.0447 E																H-19-0007				
+SAMN41453947									RITM TB DOTS Center	2019-08-06							Philippines				Homo sapiens			Tuberculosis									sputum	14.4100 N 121.0447 E																H-19-0008				
+SAMN41453954									RITM TB DOTS Center	2019-12-10							Philippines				Homo sapiens			Tuberculosis									sputum	14.3772 N 121.0084 E																H-19-0027				
+SAMN41453956									Poblacion TB DOTS Center	2020-09-16							Philippines				Homo sapiens			Tuberculosis									sputum	14.3809 N 121.0329 E																H-20-0022				
+SAMN41453958									Poblacion TB DOTS Center	2020-10-07							Philippines				Homo sapiens			Tuberculosis									sputum	14.3914 N 121.0503 E																H-20-0024				
+SAMN41453983									Poblacion TB DOTS Center	2021-10-01							Philippines				Homo sapiens			Tuberculosis									sputum	14.3882 N 121.0286 E																H-21-0019				
+SAMN43777470					BEI				Harvard School of Public Health (Fortune Lab)	2022-12-20	BEI<USA>:NR-50781						USA: Boston, MA				missing											missing	missing															Single colony		Erdman = ATCC 35801		single colony was isolated from a 7H10 plate grown at 37oC, then grown in 7H9 broth with OADC supplement at 37oC		
+SAMN45813685	90%		90%			not provided	not provided	2%		2024-11-05		null	null	null	not provided		China: Beijing			not provided										not provided	36400796			38.7 N 117.00 E	not provided		1	0	0	1				36400796	90%				not provided	A16			0	null
