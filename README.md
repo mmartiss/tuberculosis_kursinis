@@ -2,11 +2,11 @@
 
 Virulentiškumo genetinių determinančių paieška Mycobacterium tuberculosis pangenome
 
-main.R - R code, grafiko generavimui ir data analizavimui
+main.R - R kodas, grafiko generavimui ir duomenų analizei.
 
-Toje pacioje direktorijoje egzistuojantys csv, tsv, treefile files reikalingi R kodo paleidimui.
+Toje pačioje direktorijoje egzistuojantys csv, tsv, treefile duomenys reikalingi R kodo paleidimui.
 
-Git repozitorijoje truksta siu files:
+Git repozitorijoje trūksta šių failų:
 slurm_scripts/amrFinder/protein/faa/GCF_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic.faa
 slurm_scripts/panaroo/new/input/GCF_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic.gff
 slurm_scripts/prokka/results/GCF_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic
@@ -23,6 +23,5 @@ slurm_scripts/prokka/results/results_GCA_038955375.1_MTBCR170913_-_1.1.1.7_hybri
 slurm_scripts/prokka/results/results_GCA_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic/GCA_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic.tsv
 slurm_scripts/prokka/results/results_GCA_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic/GCA_038955375.1_MTBCR170913_-_1.1.1.7_hybrid_assembly_genomic.txt
 
-Jie buvo prideti i .gitignore
-Taciau veliau buvo paleista komanda:
+Jie buvo pridėti į .gitignore, tačiau vėliau buvo paleista komanda:
 git config --system core.longpaths true
